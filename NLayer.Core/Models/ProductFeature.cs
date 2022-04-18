@@ -1,5 +1,4 @@
-﻿namespace NLayer.Core;
-
+﻿namespace NLayer.Core.Models;
 public class ProductFeature
 {
     public int Id { get; set; }
