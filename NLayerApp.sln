@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{F425F72A-1943-4DC0-A53A-80767BA78F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{F425F72A-1943-4DC0-A53A-80767BA78F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{92694787-5FD4-42E6-A409-C5ED4888C0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{92694787-5FD4-42E6-A409-C5ED4888C0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{4169B42C-7DA8-48C5-8210-A2ED19F3C61F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{4169B42C-7DA8-48C5-8210-A2ED19F3C61F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{264AB848-76F0-48DC-A78F-3347B712D965}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{72ABA151-9C65-4F75-BB89-96E0E6182CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{264AB848-76F0-48DC-A78F-3347B712D965}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C58E220-1915-4FBC-9681-767BBE2D0575}"
 	ProjectSection(SolutionItems) = preProject
@@ -40,10 +38,6 @@ Global
 		{264AB848-76F0-48DC-A78F-3347B712D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264AB848-76F0-48DC-A78F-3347B712D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264AB848-76F0-48DC-A78F-3347B712D965}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72ABA151-9C65-4F75-BB89-96E0E6182CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72ABA151-9C65-4F75-BB89-96E0E6182CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72ABA151-9C65-4F75-BB89-96E0E6182CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72ABA151-9C65-4F75-BB89-96E0E6182CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
